@@ -1,0 +1,75 @@
+{
+    "build": "11.0.9169.140",
+    "version": "1.0.0",
+    "author": {
+        "name": "CloudFronts Technologies LLP",
+        "email": "lshetty@cloudfronts.com"
+    },
+    "licenseTerms": "https://powerbi.microsoft.com/en-us/visuals-gallery-terms",
+    "privacyTerms": "http://www.cloudfronts.com/custom-visual-privacy-policy/",
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/DialGauge.ts"
+        },
+        {
+            "resourceId": "rId1",
+            "sourceType": 0,
+            "file": "resources/DialGauge.js"
+        },
+        {
+            "resourceId": "rId2",
+            "sourceType": 1,
+            "file": "resources/DialGauge.css"
+        },
+        {
+            "resourceId": "rId3",
+            "sourceType": 3,
+            "file": "resources/icon.png"
+        },
+        {
+            "resourceId": "rId4",
+            "sourceType": 6,
+            "file": "resources/Thumbnail.png"
+        },
+        {
+            "resourceId": "rId5",
+            "sourceType": 2,
+            "file": "resources/Screenshot.png"
+        }
+    ],
+    "visual": {
+        "name": "DialGauge",
+        "displayName": "DialGauge",
+        "guid": "DialGauge1450749964276",
+        "version": "1.0.0",
+        "supportUrl": "http://www.cloudfronts.com/contact-us/",
+        "gitHubUrl": "https://github.com/cloudfronts/PowerBIVisuals",
+        "description": "Description for custom ‘Dial Gauge’ visualization are as below:\n1.\tColour indicated by red displays actual value.\n2.\tColour indicated by yellow displays target value.\n3.\tPointer displays any value.\n4.\tNull/blank/max values will be indicated by colour green.\n5.\tDefault minimum value is 0.\n6.\tDefault maximum value is 100.\n7.\tAdditional label to display value. It append % sign.\n8.\tName of chart will be displayed on center of Dial Gauge."
+    },
+    "images": {
+        "icon": {
+            "resourceId": "rId3"
+        },
+        "screenshots": [
+            {
+                "resourceId": "rId5"
+            }
+        ],
+        "thumbnail": {
+            "resourceId": "rId4"
+        }
+    },
+    "code": {
+        "typeScript": {
+            "resourceId": "rId0"
+        },
+        "javaScript": {
+            "resourceId": "rId1"
+        },
+        "css": {
+            "resourceId": "rId2"
+        }
+    }
+}
